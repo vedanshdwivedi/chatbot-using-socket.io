@@ -1,6 +1,6 @@
 # chatbot-using-socket.io
-Chatbot using node.js and socket.io
 
+Chat Application using node.js and socket.io
 
 # Learning Objectives
 
@@ -10,13 +10,11 @@ Chatbot using node.js and socket.io
 - Node.js
 - Heroku Deployment
 
-
 # To be implemented
 
 - Group Chat functionality
 - Private Chat functionality
 - Adding, retrieving and displaying files using AWS
-
 
 # Tools to have
 
@@ -26,4 +24,3 @@ Chatbot using node.js and socket.io
 - Express Framework
 - Robomongo
 - AWS, Heroku, Mlab Accounts
-
