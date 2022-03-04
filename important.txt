@@ -1,0 +1,8 @@
+- Running the command "npm install" command will install all the required packages
+- Use "npm install <package> --save-dev" to install a package in project and add it in package.json
+- Install "npm i express ejs body-parser --save"
+
+Dependable: 
+- It is a minimalist injection framework for javascript
+- This allows for the creation of modules that can be passed as dependencies instead of requiring them [frequently used modules]
+- The container.js file will have a dependable container with frequently used modules
