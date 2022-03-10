@@ -4,8 +4,12 @@ const dependable = require("dependable");
 const path = require("path");
 
 const container = dependable.container();
-// ['the name you want to give', 'the module that you are importing']
-const simpleDependencies = [["_", "lodash"], ['async', 'async']];
+
+// FORMAT : ['the name you want to give', 'the module that you are importing']
+const simpleDependencies = [
+  ["_", "lodash"],
+  ["async", "async"],
+];
 
 simpleDependencies.forEach(function (val) {
   container.register(val[0], function () {
